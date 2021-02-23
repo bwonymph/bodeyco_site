@@ -113,3 +113,13 @@ input[type=checkbox]:checked ~ #menu{
 	min-width: 200px;
 	border-radius: 0px;
 }
+
+/*Sections*/
+
+.main{
+    min-height: 100vh;
+}
+.section{
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
