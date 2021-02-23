@@ -33,22 +33,22 @@ nav li a {
     text-decoration: none;
 }
 /*Hover state for top level links*/
-nav li:hover a {
+/*nav li:hover a {
     background: black;
     color:white;
-}
+}*/
 /*Style for dropdown links*/
-nav li:hover ul a {
+/*nav li:hover ul a {
     background: #f3f3f3;
     color: #2f3036;
     height: 40px;
     line-height: 40px;
-}
+}*/
 /*Hover state for dropdown links*/
-nav li:hover ul a:hover {
+/*nav li:hover ul a:hover {
     background: #19c589;
     color: #fff;
-}
+}*/
 /*Hide dropdown links until they are needed*/
 nav li ul {
     display: none;
@@ -117,7 +117,7 @@ input[type=checkbox]:checked ~ #menu{
 /*Sections*/
 
 .main{
-    min-height: 100vh;
+    min-height: 80vh;
 }
 .section{
     padding-bottom: 5vh;
