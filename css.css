@@ -7,11 +7,11 @@
 }
 
 /*Strip the ul of padding and list styling*/
-nav ul {
+/*/*/*nav ul {
     list-style-type:none;
     margin:0;
     position: absolute;
-    right: 30px;
+/*    right: 30px;*/
 }
 /*Create a horizontal list with spacing*/
 nav li {
@@ -22,16 +22,14 @@ nav li {
 /*Style for menu links*/
 nav li a {
     display:block;
-    min-width:140px;
+    min-width:10vw;
     height: 50px;
     text-align: center;
     line-height: 50px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: black;
-    background: white;
-    border: 3px solid black;
-    text-decoration: none;
-}
+
+}*/*/*/
 /*Hover state for top level links*/
 /*nav li:hover a {
     background: black;
