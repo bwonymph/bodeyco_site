@@ -22,14 +22,15 @@ nav li {
 /*Style for menu links*/
 nav li a {
     display:block;
-    min-width:10vw;
     height: 50px;
+    padding-right: 1.5vw;
+    padding-left: 1.5vw;
     text-align: center;
     line-height: 50px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: black;
 
-}*/*/*/
+}/*/
 /*Hover state for top level links*/
 /*nav li:hover a {
     background: black;
@@ -85,7 +86,7 @@ input[type=checkbox]:checked ~ #menu{
     display: block;
 }
 /*Responsive Styles*/
-@media screen and (max-width : 760px){
+@media screen and (max-width : 970px){
     /*Make dropdown links appear inline*/
     nav ul {
         position: static;
@@ -111,6 +112,11 @@ input[type=checkbox]:checked ~ #menu{
 	min-width: 200px;
 	border-radius: 0px;
 }
+
+hr.d {
+  border: 2px solid black;
+}
+
 
 /*Sections*/
 
