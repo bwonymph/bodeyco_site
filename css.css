@@ -1,3 +1,25 @@
+*{
+  font-family: proxima-nova, sans-serif;
+}
+.menu{
+  margin:0px;
+}
+
+.footlist{
+  list-style-type: none;
+}
+
+.hero{
+  font-size: 6vh;
+  font-style: normal;
+  font-weight: 900;
+}
+.hero2{
+  font-size: 5vh;
+  font-style: normal;
+  font-weight: 900;
+}
+
 .dot {
   height: 25px;
   width: 25px;
@@ -9,7 +31,6 @@
 /*Strip the ul of padding and list styling*/
 /*/*/*nav ul {
     list-style-type:none;
-    margin:0;
     position: absolute;
 /*    right: 30px;*/
 }
@@ -27,7 +48,7 @@ nav li a {
     padding-left: 1.5vw;
     text-align: center;
     line-height: 50px;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 900;
     color: black;
 
 }/*/
@@ -69,7 +90,6 @@ nav ul li a:hover + .hidden, .hidden:hover {
 }
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
     color: #fff;
     background: black;
@@ -110,18 +130,20 @@ input[type=checkbox]:checked ~ #menu{
 	color: white;
 	background: black;
 	min-width: 200px;
-	border-radius: 0px;
+	border-radius: 30px;
+  padding: 10px;
+  font-weight: 900;
 }
 
 hr.d {
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 
 /*Sections*/
 
 .main{
-    min-height: 80vh;
+    min-height: 83vh;
 }
 .section{
     padding-bottom: 5vh;

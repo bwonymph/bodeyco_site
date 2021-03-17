@@ -33,7 +33,7 @@
     <a class="navbar-brand" href="index.html"><img src="./assets/logo_black.png" style ="height:5vh;"></img></a>
     <label for="show-menu" class="show-menu"><i class="fa fa-bars" style="height:2vh; min-width:5vw;"></i></label>
     <input type="checkbox" id="show-menu" role="button">
-        <ul id="menu">
+      <ul class="menu" id="menu">
         <li>
             <a href="ex-studio.html">Studios</a>
         </li>
@@ -42,27 +42,27 @@
         </li>
         <li><a href="https://bodeyco.com">Shop</a></li>
         <li><a href="https://bodeyco.com">About</a></li>
-        <li style="text-align: center;"><button type="button" class="btn jwbutton">Studio Application</button></li>
+        <li style="text-align: center;"><button type="button" class="jwbutton">Request Invite</button></li>
     </ul>
   </nav>
 
   <!-- Main Content -->
   <div class="container main">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="col-lg-10 mx-auto">
         <div style="padding-top:15vh;">
-          <img style="height: 100px;
-            width: 100px;
+          <img style="height: 200px;
+            width: 200px;
             background-color: black;
             border-radius: 50%;
             display: inline-block;"src="./assets/artist.jpg">
           <br>
           <br>
-          <h1>STUDIO NAME</h1>
+          <h1 class="hero">STUDIO NAME</h1>
           <br>
-          <h5>@STUDIO_NAME</h5>
+          <h5 class="hero2">@STUDIO_NAME</h5>
           <br>
-          <p>Artist's statement about who they are and their studio. This should be authentic and up to 180 characters</p>
+          <h3>Artist's statement about who they are and their studio. This should be authentic and up to 180 characters</h3>
         </div>
       </div>
     </div>
@@ -87,7 +87,7 @@
         </div>
       </div>
   </div>
-  <hr class="d">
+  
 <!--   <div class="container">
     <br>
     <div class="row">
@@ -136,34 +136,23 @@
   <hr> -->
   <div class="container section">
     <div class="row">
-      <div class="col-lg-12 mx-auto text-center">
+      <div class="col-lg-12 mx-auto">
           <h1><b>HEADER</b></h1>
+          <hr class="d">
           <div class="row" style="padding-top:10vh">
-            <div class="col-lg-6 mx-auto" style="padding-bottom: 5vh">
+            <div class="col-lg-6 mx-auto text-center" style="padding-bottom: 5vh">
               <img src="./assets/frame.png" style="width:25vw; padding-bottom: 3vh;">
-              <h6>INSERT ART PIECE NAME</h6>
-              <br>
-              <button type="button" class="btn jwbutton">CTA</button>
             </div>
-            <div class="col-lg-6 mx-auto">
+            <div class="col-lg-6 mx-auto text-center">
               <img src="./assets/frame.png" style="width:25vw; padding-bottom: 3vh;">
-              <h6>INSERT ART PIECE NAME</h6>
-              <br>
-              <button type="button" class="btn jwbutton">CTA</button>
             </div>
           </div>
           <div class="row" style="padding-top:5vh">
-            <div class="col-lg-6 mx-auto" style="padding-bottom: 5vh">
+            <div class="col-lg-6 mx-auto text-center" style="padding-bottom: 5vh">
               <img src="./assets/frame.png" style="width:25vw; padding-bottom: 3vh;">
-              <h6>INSERT ART PIECE NAME</h6>
-              <br>
-              <button type="button" class="btn jwbutton">CTA</button>
             </div>
-            <div class="col-lg-6 mx-auto">
+            <div class="col-lg-6 mx-auto text-center">
               <img src="./assets/frame.png" style="width:25vw; padding-bottom: 3vh;">
-              <h6>INSERT ART PIECE NAME</h6>
-              <br>
-              <button type="button" class="btn jwbutton">CTA</button>
             </div>
           </div>
           <br>
@@ -171,18 +160,12 @@
       </div>
     </div>
   </div>
-  <hr class="d">
   <div class="container section">
     <div class="row">
-      <div class="col-lg-2 mx-auto">
-        <img style="height: 15vh;
-            background-color: black;
-            border-radius: 50%;
-            display: inline-block;"src="./assets/artist.jpg">
-      </div>
-      <div class="col-lg-8">
+      <div class="col-lg-12">
         <div>
-          <h1>About</h1>
+          <h1><b>About</b></h1>
+          <hr class="d">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
         </div>
       </div>
@@ -297,38 +280,10 @@
 
   <!-- Footer -->
   <footer>
-<!--     <div class="container section">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <div>
-            <h1><b>Ready to launch your studio?</b></h1>
-            <h6>Build and grow your community and make money while you do it</h6>
-            <br>
-            <button type="button" class="btn jwbutton">Studio Application</button>
-        </div>
-        </div>
-      </div>
-    </div>
-    <hr class="d"> -->
     <div class="container section">
       <div class="row">
-        <div class="col-lg-4 mx-auto" style="vertical-align:middle">
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">
-              <a href="ex-artwork.html" style="color:black">Studios</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="ex-studio.html" style="color:black">How It Works</a>
-            </li>
-            <li class="list-inline-item">
-              <a>Shop</a>
-            </li>
-            <li class="list-inline-item">
-              <a href="FAQ.html" style="color:black">FAQ</a>
-            </li>
-          <ul>
-        </div>
-        <div class="col-lg-4 mx-auto">
+        <div class="col-lg-4" style="vertical-align:middle">
+           <a class="navbar-brand" href="index.html"><img src="./assets/logo_black.png" style ="height:5vh;"></img></a>
           <ul class="list-inline text-center">
             <li class="list-inline-item">
               <a href="https://www.instagram.com/">
@@ -346,12 +301,35 @@
             </li>
           <ul>
         </div>
-        <div class="col-lg-4 mx-auto">
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">
-              <a class="navbar-brand" href="index.html"><img src="./assets/logo_black.png" style ="height:5vh;"></img></a>
+        <div class="col-lg-3 offset-lg-2">
+          <h1><b>Company</b></h1>
+            <li class="footlist">
+              <a>Shop</a>
             </li>
-          </ul>
+            <li class="footlist">
+              <a>Studios</a>
+            </li>
+            <li class="footlist">
+              <a>Social Impact</a>
+            </li>
+            <li class="footlist">
+              <a>About Us</a>
+            </li>
+        </div>
+        <div class="col-lg-3">
+          <h1><b>Resources</b></h1>
+            <li class="footlist">
+              <a>FAQ</a>
+            </li>
+            <li class="footlist">
+              <a>Our Materials</a>
+            </li>
+            <li class="footlist">
+              <a>Contact</a>
+            </li>
+            <li class="footlist">
+              <a>Request Invite</a>
+            </li>
         </div>
       </div>
     </div>
