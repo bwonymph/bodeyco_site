@@ -99,6 +99,20 @@ nav li ul li a {
 nav ul li a:hover + .hidden, .hidden:hover {
     display: block;
 }
+
+.sticky {
+  position: fixed !important;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
     text-decoration: none;
