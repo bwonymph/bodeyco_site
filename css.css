@@ -181,6 +181,8 @@ input[type=checkbox]:checked ~ #menu{
 	border-radius: 30px;
   padding: 10px;
   font-weight: 900;
+  border-color: black;
+  box-shadow: 5px 10px 8px #888888;
 }
 
 .jwbutton2{
@@ -190,6 +192,7 @@ input[type=checkbox]:checked ~ #menu{
   border-radius: 30px;
   padding: 10px;
   font-weight: 900;
+  border-color: black;
 }
 
 #cardRow{
