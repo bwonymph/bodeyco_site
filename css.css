@@ -172,6 +172,10 @@ input[type=checkbox]:checked ~ #menu{
     #cardRow{
       margin-top: 0px !important;
     }
+    .portImage{
+      width:70vw !important; 
+      padding-bottom: 3vh;
+    }
 }
 
 .jwbutton{
@@ -193,6 +197,11 @@ input[type=checkbox]:checked ~ #menu{
   padding: 10px;
   font-weight: 900;
   border-color: black;
+}
+
+.portImage{
+  width:40vw; 
+  padding-bottom: 3vh;
 }
 
 #cardRow{
