@@ -186,7 +186,7 @@ input[type=checkbox]:checked ~ #menu{
   padding: 10px;
   font-weight: 900;
   border-color: black;
-  box-shadow: 5px 10px 8px #888888;
+  box-shadow: 4px 8px 7px #888888;
 }
 
 .jwbutton2{
@@ -226,6 +226,10 @@ input[type=checkbox]:checked ~ #menu{
 
 hr.d {
   border: 1px solid black;
+}
+
+hr.dw {
+  border: 1px solid white;
 }
 
 hr.dd {
